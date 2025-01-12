@@ -1,3 +1,36 @@
-* {
-    background-color: aquamarine;
+.index-title {
+    text-align: center;
+}
+
+.recipes-container {
+    text-align: center;
+}
+
+.index-recipes {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.index-recipes li {
+    padding: 30px;
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.index-recipes li a {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    display: block;
+}
+
+.index-recipes li img {
+    width: 100%;
+    height: 100%;
 }
